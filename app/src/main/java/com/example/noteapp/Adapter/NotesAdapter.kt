@@ -7,12 +7,13 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.noteapp.MainActivity
 import com.example.noteapp.Models.Note
 import com.example.noteapp.R
 import kotlin.random.Random
 
 
-class NotesAdapter (private val context: Context, val listener: NotesClickListener) :
+class NotesAdapter(private val context: Context, val listener: MainActivity) :
     RecyclerView.Adapter<NotesAdapter.NoteViewHolder>() {
 
     private val NotesList = ArrayList<Note>()
