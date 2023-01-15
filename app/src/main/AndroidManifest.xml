@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NoteApp"
-        tools:targetApi="31">
+        tools:targetApi="33">
         <activity
             android:name=".AddNote"
             android:exported="false">
@@ -24,7 +24,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
@@ -33,5 +32,4 @@
                 android:value="" />
         </activity>
     </application>
-
 </manifest>
